@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 赵全 - 一个基于 hugo 的随笔博客</title>
-    <link>https://zhaoquan.gitee.io/post/</link>
-    <description>Recent content in Posts on 赵全 - 一个基于 hugo 的随笔博客</description>
+    <title>Posts on 赵全的博客</title>
+    <link>http://zhaoquan.gitee.io/post/</link>
+    <description>Recent content in Posts on 赵全的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2020 10:14:20 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2020 10:17:20 +0800</lastBuildDate>
     
-	<atom:link href="https://zhaoquan.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://zhaoquan.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>还没想好写什么</title>
+      <link>http://zhaoquan.gitee.io/post/secend/</link>
+      <pubDate>Wed, 29 Jul 2020 10:17:20 +0800</pubDate>
+      
+      <guid>http://zhaoquan.gitee.io/post/secend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>使用 hugo 的第一篇文章就说一下 hugo 的搭建</title>
-      <link>https://zhaoquan.gitee.io/post/first/</link>
+      <link>http://zhaoquan.gitee.io/post/first/</link>
       <pubDate>Wed, 29 Jul 2020 10:14:20 +0800</pubDate>
       
-      <guid>https://zhaoquan.gitee.io/post/first/</guid>
-      <description>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人项目都同时 push,两平台同步） 安装 hugo，我是用的 scoop 比较容易，其他安装方法，大家按官网的来，如果要了解 scoop 点这里  什么是pages 我也不知道什么官方的表述，我的理解它就是一个免费的静态网站托管，我们可以用它来发布网站，免费的，大家实际用用理解就深了
-如何配置 能同时提交代码到 GitHub 和码云 为什么要同时，对国内平台的一个支持，是觉得自己英语不好，在中文平台找资源学起来快，但是目前平台还不强，很多中国人做的项目都没有推送到码云上。怎么做到呢，需要：
- 取消git config 用户及邮箱的全局配置 生成多个平台的密钥，各自上传到各自平台 在项目git 下的config 中同时配置remote  更多请点这个两个连接：一台电脑生成多个密钥，同时提交多个平台</description>
+      <guid>http://zhaoquan.gitee.io/post/first/</guid>
+      <description>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人</description>
     </item>
     
   </channel>

@@ -1,70 +1,153 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>使用 hugo 的第一篇文章就说一下 hugo 的搭建 - 赵全的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-    <title>使用 hugo 的第一篇文章就说一下 hugo 的搭建 &middot; 赵全 - 一个基于 hugo 的随笔博客</title>
-    <meta name="author" content="John Doe">
-    <meta name="description" content="Your description of the blog">
-    <meta name="generator" content="Hugo 0.74.3" />
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <!-- RSS autodiscovery -->
-    
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-    <link rel="shortcut icon" href="https://zhaoquan.gitee.io/img/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://zhaoquan.gitee.io/css/screen.css">
-    <link rel="stylesheet" href="https://zhaoquan.gitee.io/css/github.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-    
+<meta name="author" content="赵全" /><meta name="description" content="注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人" /><meta name="keywords" content="hugo, pages, GitHub, 码云" />
 
-    
-    <link rel="shortcut icon" type="image/x-icon" href="https://zhaoquan.gitee.io/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="https://zhaoquan.gitee.io/favicon.ico">
-    
 
-    <!-- Stylesheet for theme color -->
-    <style type="text/css">
-    a, a:visited {color: #3498db;}
-    .pagination a {color: #3498db;}
-    .gist .gist-file .gist-meta a:visited {color: #3498db !important;}
-    a:focus, a:hover {color: #2079b4;}
-    h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-title a:hover {color: #2079b4;}
-    .older-posts:hover, .newer-posts:hover {color: #2079b4;}
-</style>
+
+
+
+
+<meta name="generator" content="Hugo 0.74.3 with theme even" />
+
+
+<link rel="canonical" href="http://zhaoquan.gitee.io/post/first/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.8c3cbcb0324c2bb4875ceccba4007cbad4b4ac8377f33af9953c3e7684534a50.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="使用 hugo 的第一篇文章就说一下 hugo 的搭建" />
+<meta property="og:description" content="注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://zhaoquan.gitee.io/post/first/" />
+<meta property="article:published_time" content="2020-07-29T10:14:20+08:00" />
+<meta property="article:modified_time" content="2020-07-29T10:14:20+08:00" />
+<meta itemprop="name" content="使用 hugo 的第一篇文章就说一下 hugo 的搭建">
+<meta itemprop="description" content="注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人">
+<meta itemprop="datePublished" content="2020-07-29T10:14:20+08:00" />
+<meta itemprop="dateModified" content="2020-07-29T10:14:20+08:00" />
+<meta itemprop="wordCount" content="379">
+
+
+
+<meta itemprop="keywords" content="hugo,pages,GitHub,码云," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="使用 hugo 的第一篇文章就说一下 hugo 的搭建"/>
+<meta name="twitter:description" content="注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
 </head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">ChatterZhao</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">目录</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">ChatterZhao</a>
+</div>
 
-<body class="home-template">
-    <header id="site-head">
-	
-	<h1 class="blog-title"><a href="https://zhaoquan.gitee.io">赵全</a></h1>
-	
-	
-	<h1 class="blog-subtitle">我的博客</h1>
-	
-</header>
-    
-    
-    <main class="content" role="main">
-    
-<article class="post">
-    <header>
-        <h1 class="post-title">使用 hugo 的第一篇文章就说一下 hugo 的搭建</h1>
-        <div class="post-meta">
-            <time datetime="29 July 2020">
-                29 July 2020
-            </time>
-        </div>
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">目录</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
     </header>
 
-    <section class="post-content">
-        <ul>
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">使用 hugo 的第一篇文章就说一下 hugo 的搭建</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-07-29 </span>
+        <div class="post-category">
+            <a href="/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
+            </div>
+          <span class="more-meta"> 约 379 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <ul>
 <li>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了）</li>
 <li>配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人项目都同时 push,两平台同步）</li>
 <li>安装 hugo，我是用的 scoop 比较容易，其他安装方法，大家按官网的来，如果要了解 <code>scoop</code> <a href="https://gitbook.cn/gitchat/activity/5d284248c9219c0d45806f21">点这里</a></li>
@@ -80,95 +163,112 @@
 </ul>
 <p>更多请点这个两个连接：<a href="https://blog.csdn.net/qq_43199318/article/details/103469792">一台电脑生成多个密钥</a>，<a href="https://blog.csdn.net/yilovexing/article/details/107226141">同时提交多个平台</a></p>
 
-    </section>
+    </div>
 
-    
-    <section class="post-tags" style="padding-bottom:60px;">
-        <div class="post-meta tags">
-            <i class="fa fa-fw fa-tag"></i>
-            
-        </div>
-    </section>
-    
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "spf13" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    <section class="share">
-    <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
-    <p class="info prompt">Share</p>
-    
-    
-</section>
-
-    <footer class="post-footer">
-        <section class="author">
-    <div class="authorimage" style="background: url(https://zhaoquan.gitee.io/img/avatar.jpg)"></div>
-    <h4>John Doe</h4>
-    <p class="bio">programmer - blogger - coffee aficionado</p>
-    <p class="meta">
-      
-    </p>
-</section>
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">赵全</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-07-29
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/hugo/">hugo</a>
+          <a href="/tags/pages/">pages</a>
+          <a href="/tags/github/">GitHub</a>
+          <a href="/tags/%E7%A0%81%E4%BA%91/">码云</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/secend/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">还没想好写什么</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+      </nav>
     </footer>
-    
-</article>
+  </article>
+        </div>
+        
 
+  
+
+  
+
+      </div>
     </main>
 
-    <footer class="site-footer">
-	<div class="inner">
-		<section class="footer-social">
-      
-      <a href="//twitter.com/spf13" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
-      
-      
-      
-      
-      
-      
-      <a href="//github.com/spf13" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
-      
-      
-      
-      
-  </section>
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="http://zhaoquan.gitee.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
 
-		<section class="copyright">&copy; 2020 <a href="https://zhaoquan.gitee.io">John Doe</a>. Released under the MIT license.</section>
-	</div>
-</footer>
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://zhaoquan.gitee.io/js/index.js"></script>
-<script src="https://zhaoquan.gitee.io/js/smooth-scroll.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zhaoquan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
 
 
-<script>
-    smoothScroll.init({
-        speed: 800,
-        easing: 'easeInOutCubic',
-        updateURL: false,
-        offset: 125,
-    });
-</script>
-<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
 
 
 </body>

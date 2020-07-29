@@ -1,28 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://zhaoquan.gitee.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zhaoquan.gitee.io/post/</loc>
+    <loc>http://zhaoquan.gitee.io/post/secend/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/post/first/</loc>
     <lastmod>2020-07-29T10:14:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhaoquan.gitee.io/post/first/</loc>
-    <lastmod>2020-07-29T10:14:20+08:00</lastmod>
+    <loc>http://zhaoquan.gitee.io/categories/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhaoquan.gitee.io/</loc>
-    <lastmod>2020-07-29T10:14:20+08:00</lastmod>
+    <loc>http://zhaoquan.gitee.io/tags/github/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhaoquan.gitee.io/categories/</loc>
+    <loc>http://zhaoquan.gitee.io/tags/hugo/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zhaoquan.gitee.io/tags/</loc>
+    <loc>http://zhaoquan.gitee.io/tags/pages/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/post/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/tags/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/tags/%E7%A0%81%E4%BA%91/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoquan.gitee.io/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2020-07-29T10:17:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

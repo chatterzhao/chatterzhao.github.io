@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pages on 赵全的博客</title>
+    <link>http://zhaoquan.gitee.io/tags/pages/</link>
+    <description>Recent content in pages on 赵全的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 29 Jul 2020 10:17:20 +0800</lastBuildDate>
+    
+	<atom:link href="http://zhaoquan.gitee.io/tags/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>还没想好写什么</title>
+      <link>http://zhaoquan.gitee.io/post/secend/</link>
+      <pubDate>Wed, 29 Jul 2020 10:17:20 +0800</pubDate>
+      
+      <guid>http://zhaoquan.gitee.io/post/secend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>使用 hugo 的第一篇文章就说一下 hugo 的搭建</title>
+      <link>http://zhaoquan.gitee.io/post/first/</link>
+      <pubDate>Wed, 29 Jul 2020 10:14:20 +0800</pubDate>
+      
+      <guid>http://zhaoquan.gitee.io/post/first/</guid>
+      <description>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,111 +1,194 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>分类 - 赵全的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-    <title>Categories &middot; 赵全 - 一个基于 hugo 的随笔博客</title>
-    <meta name="author" content="John Doe">
-    <meta name="description" content="Your description of the blog">
-    <meta name="generator" content="Hugo 0.74.3" />
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <!-- RSS autodiscovery -->
-    
-    <link href="https://zhaoquan.gitee.io/categories/index.xml" rel="alternate" type="application/rss+xml"
-    title="赵全 - 一个基于 hugo 的随笔博客" />
-    <link href="https://zhaoquan.gitee.io/categories/index.xml" rel="feed" type="application/rss+xml"
-    title="赵全 - 一个基于 hugo 的随笔博客" />
-    
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-    <link rel="shortcut icon" href="https://zhaoquan.gitee.io/img/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://zhaoquan.gitee.io/css/screen.css">
-    <link rel="stylesheet" href="https://zhaoquan.gitee.io/css/github.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-    
+<meta name="author" content="zhaoquan" /><meta name="description" content="一个技术日志类博客，也顺便记录生活." /><meta name="keywords" content="云开发, Web云开发, 小程序开发, 小程序云开发, 微信小程序开发, 微信小程序云开发" />
 
-    
-    <link rel="shortcut icon" type="image/x-icon" href="https://zhaoquan.gitee.io/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="https://zhaoquan.gitee.io/favicon.ico">
-    
 
-    <!-- Stylesheet for theme color -->
-    <style type="text/css">
-    a, a:visited {color: #3498db;}
-    .pagination a {color: #3498db;}
-    .gist .gist-file .gist-meta a:visited {color: #3498db !important;}
-    a:focus, a:hover {color: #2079b4;}
-    h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-title a:hover {color: #2079b4;}
-    .older-posts:hover, .newer-posts:hover {color: #2079b4;}
-</style>
+
+
+
+
+<meta name="generator" content="Hugo 0.74.3 with theme even" />
+
+
+<link rel="canonical" href="http://zhaoquan.gitee.io/categories/" />
+  <link href="http://zhaoquan.gitee.io/categories/index.xml" rel="alternate" type="application/rss+xml" title="赵全的博客" />
+  <link href="http://zhaoquan.gitee.io/categories/index.xml" rel="feed" type="application/rss+xml" title="赵全的博客" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.8c3cbcb0324c2bb4875ceccba4007cbad4b4ac8377f33af9953c3e7684534a50.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Categories" />
+<meta property="og:description" content="一个技术日志类博客，也顺便记录生活." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://zhaoquan.gitee.io/categories/" />
+<meta property="og:updated_time" content="2020-07-29T10:17:20+08:00" />
+<meta itemprop="name" content="Categories">
+<meta itemprop="description" content="一个技术日志类博客，也顺便记录生活.">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:description" content="一个技术日志类博客，也顺便记录生活."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
 </head>
-
-<body class="home-template">
-    <header id="site-head">
-	
-	<h1 class="blog-title"><a href="https://zhaoquan.gitee.io">赵全</a></h1>
-	
-	
-	<h1 class="blog-subtitle">我的博客</h1>
-	
-</header>
-    
-    
-    <main class="content" role="main">
-    
-<div class="terms-list">
-	<ul>
-        
-        
-    </ul>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">ChatterZhao</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">目录</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">ChatterZhao</a>
 </div>
 
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">目录</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <div class="terms">
+      <div class="terms-title">
+        共计 1 个分类
+      </div>
+      <div class="terms-tags">
+        <a class="terms-link" href="/categories/%E9%9A%8F%E7%AC%94/">
+            随笔
+            <span class="terms-count">2</span>
+          </a>
+        </div>
+    </div>
+        </div>
+        
+
+      </div>
     </main>
 
-    <footer class="site-footer">
-	<div class="inner">
-		<section class="footer-social">
-      
-      <a href="//twitter.com/spf13" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
-      
-      
-      
-      
-      
-      
-      <a href="//github.com/spf13" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
-      
-      
-      
-      
-      <a href="https://zhaoquan.gitee.io/categories/index.xml" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
-      
-  </section>
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="http://zhaoquan.gitee.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
 
-		<section class="copyright">&copy; 2020 <a href="https://zhaoquan.gitee.io">John Doe</a>. Released under the MIT license.</section>
-	</div>
-</footer>
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://zhaoquan.gitee.io/js/index.js"></script>
-<script src="https://zhaoquan.gitee.io/js/smooth-scroll.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zhaoquan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
 
 
-<script>
-    smoothScroll.init({
-        speed: 800,
-        easing: 'easeInOutCubic',
-        updateURL: false,
-        offset: 125,
-    });
-</script>
-<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
 
 
 </body>
