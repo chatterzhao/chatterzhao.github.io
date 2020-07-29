@@ -26,7 +26,7 @@
       <pubDate>Wed, 29 Jul 2020 10:14:20 +0800</pubDate>
       
       <guid>http://zhaoquan.gitee.io/post/first/</guid>
-      <description>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了） 配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人</description>
+      <description>开通 GitHub 和 码云的 Pages 服务（腾讯云云开发有个静态网站托管，想了解的可以去看看） 配置 Git 使得 git push 能同时 push GitHub 和码云 安装 hugo，我刚好有 scoop &amp;lsquo;</description>
     </item>
     
   </channel>
