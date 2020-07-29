@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>使用 hugo 的第一篇文章就说一下 hugo 的搭建 &middot; Steam - a minimal theme for Hugo</title>
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Your description of the blog">
+    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- RSS autodiscovery -->
+    
+
+    <link rel="shortcut icon" href="https://example.org/img/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://example.org/css/screen.css">
+    <link rel="stylesheet" href="https://example.org/css/github.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+    
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://example.org/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://example.org/favicon.ico">
+    
+
+    <!-- Stylesheet for theme color -->
+    <style type="text/css">
+    a, a:visited {color: #33cc99;}
+    .pagination a {color: #33cc99;}
+    .gist .gist-file .gist-meta a:visited {color: #33cc99 !important;}
+    a:focus, a:hover {color: #178b6b;}
+    h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-title a:hover {color: #178b6b;}
+    .older-posts:hover, .newer-posts:hover {color: #178b6b;}
+</style>
+</head>
+
+<body class="home-template">
+    <header id="site-head">
+	
+	<h1 class="blog-title"><a href="https://example.org/">Steam</a></h1>
+	
+	
+	<h1 class="blog-subtitle">a minimal theme for <del>Ghost</del> Hugo</h1>
+	
+</header>
+    
+    
+    <main class="content" role="main">
+    
+<article class="post">
+    <header>
+        <h1 class="post-title">使用 hugo 的第一篇文章就说一下 hugo 的搭建</h1>
+        <div class="post-meta">
+            <time datetime="29 July 2020">
+                29 July 2020
+            </time>
+        </div>
+    </header>
+
+    <section class="post-content">
+        <ul>
+<li>注册 github 和 码云的 pages（免费的，这样git push 后就可以对外当博客用了）</li>
+<li>配置 Git 使得 git push 能同时 push GitHub 和码云（建议大家对码云做一下支持，我们所有个人项目都同时 push,两平台同步）</li>
+<li>安装 hugo，我是用的 scoop 比较容易，其他安装方法，大家按官网的来，如果要了解 <code>scoop</code> <a href="https://gitbook.cn/gitchat/activity/5d284248c9219c0d45806f21">点这里</a></li>
+</ul>
+<h4 id="什么是pages">什么是pages</h4>
+<p>我也不知道什么官方的表述，我的理解它就是一个免费的静态网站托管，我们可以用它来发布网站，免费的，大家实际用用理解就深了</p>
+<h4 id="如何配置-能同时提交代码到-github-和码云">如何配置 能同时提交代码到 GitHub 和码云</h4>
+<p>为什么要同时，对国内平台的一个支持，是觉得自己英语不好，在中文平台找资源学起来快，但是目前平台还不强，很多中国人做的项目都没有推送到码云上。怎么做到呢，需要：</p>
+<ul>
+<li>取消git config 用户及邮箱的全局配置</li>
+<li>生成多个平台的密钥，各自上传到各自平台</li>
+<li>在项目git 下的config 中同时配置remote</li>
+</ul>
+<p>更多请点这个两个连接：<a href="https://blog.csdn.net/qq_43199318/article/details/103469792">一台电脑生成多个密钥</a>，<a href="https://blog.csdn.net/yilovexing/article/details/107226141">同时提交多个平台</a></p>
+
+    </section>
+
+    
+    <section class="post-tags" style="padding-bottom:60px;">
+        <div class="post-meta tags">
+            <i class="fa fa-fw fa-tag"></i>
+            
+        </div>
+    </section>
+    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <section class="share">
+    <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
+    <p class="info prompt">Share</p>
+    
+    
+</section>
+
+    <footer class="post-footer">
+        <section class="author">
+    <div class="authorimage" style="background: url(https://example.org/img/avatar.jpg)"></div>
+    <h4>John Doe</h4>
+    <p class="bio">programmer - blogger - coffee aficionado</p>
+    <p class="meta">
+      
+    </p>
+</section>
+    </footer>
+    
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+	<div class="inner">
+		<section class="footer-social">
+      
+      <a href="//twitter.com/spf13" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>&nbsp;
+      
+      
+      
+      
+      
+      
+      <a href="//github.com/spf13" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
+      
+      
+      
+      
+  </section>
+
+		<section class="copyright">&copy; 2020 <a href="https://example.org/">John Doe</a>. Released under the MIT license.</section>
+	</div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://example.org/js/index.js"></script>
+<script src="https://example.org/js/smooth-scroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+
+
+<script>
+    smoothScroll.init({
+        speed: 800,
+        easing: 'easeInOutCubic',
+        updateURL: false,
+        offset: 125,
+    });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>
